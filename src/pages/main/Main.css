@@ -1,0 +1,9 @@
+.main-container {
+  position: relative;
+  background-color: white;
+  width: 411px;
+  height: 869px;
+  border: 1px solid;
+  margin-left: 30%;
+  margin-top: 30px;
+}

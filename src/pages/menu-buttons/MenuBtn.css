@@ -1,0 +1,36 @@
+.button-holder {
+    position: absolute;
+    margin-top: -110px;
+    margin-left: 12%;
+}
+button {
+    display: flex;
+    align-items: center;
+    width: 316px;
+    height: 138px;
+    top: 335px;
+    border: 0px;
+    border-radius: 14px;
+    background-color: #fff;
+    box-shadow: 0px 2px 13px 4px #9D57E340;
+    margin-bottom: 26px;
+    transition:transform 0.3s ease;
+}
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+button img {
+    margin-left: 48px;
+}
+button p {
+    font-family: 'Poppins';
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #5B1CAE;
+    width: 173px;
+}

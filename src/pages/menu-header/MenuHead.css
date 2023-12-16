@@ -1,0 +1,51 @@
+.header-container {
+    overflow: hidden;
+    background-color: #A76AE4;
+    height: 455px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    position: relative;
+}
+.img1 {
+    position: absolute;
+}
+.img2 {
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 0px;
+}
+.img3 {
+    position: absolute;
+    margin-left: 285px;
+    margin-top: 28px;
+}
+.img4 {
+    position: absolute;
+    margin-left: 285px;
+    margin-top: 173px;
+}
+.info-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 262px;
+    height: 248px;
+    top: 49px;
+    left: 49px;
+}
+.img5 {
+    position: absolute;
+}
+.img6 {
+    position: absolute;
+
+}
+.img7 {
+    position: absolute;
+
+}
+.quizimg {
+    position: absolute;
+
+}
