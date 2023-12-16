@@ -17,12 +17,15 @@ button {
     transition:transform 0.3s ease;
 }
 button:hover {
-    cursor: pointer;
     transform: scale(1.1);
-
+    cursor: pointer;
 }
 button img {
     margin-left: 48px;
+}
+button a {
+    text-decoration: none;
+    color: #5B1CAE;
 }
 button p {
     font-family: 'Poppins';

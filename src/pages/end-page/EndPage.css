@@ -1,0 +1,51 @@
+.endpage-header-container {
+    overflow: hidden;
+    background-color: #A76AE4;
+    height: 455px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    position: relative;
+}
+.endpage-header-container .img1 {
+    position: absolute;
+}
+.endpage-header-container .img2 {
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 0px;
+}
+.endpage-header-container .img3 {
+    position: absolute;
+    margin-left: 246px;
+    margin-top: 64px;
+}
+.endpage-header-container .img4 {
+    position: absolute;
+    margin-left: 281px;
+    margin-top: 89px;
+}
+.endpage-header-container .info-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 262px;
+    height: 248px;
+    top: 17px;
+    left: -37px;
+}
+.endpage-header-container .img5 {
+    position: absolute;
+}
+.endpage-header-container .img6 {
+    position: absolute;
+
+}
+.endpage-header-container .img7 {
+    position: absolute;
+
+}
+.endpage-header-container .qimg {
+    position: absolute;
+
+}
