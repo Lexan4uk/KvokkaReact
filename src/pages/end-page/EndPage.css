@@ -1,9 +1,7 @@
 .endpage-header-container {
     overflow: hidden;
     background-color: #A76AE4;
-    height: 455px;
-    border-bottom-left-radius: 18px;
-    border-bottom-right-radius: 18px;
+    height: 100%;
     position: relative;
 }
 .endpage-header-container .img1 {
@@ -48,4 +46,40 @@
 .endpage-header-container .qimg {
     position: absolute;
 
+}
+.endpage-header-container .img8 {
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 27px;
+}
+.endpage-header-container .img9 {
+    position: absolute;
+    margin-left: 324px;
+    margin-top: 115px;
+}
+.endpage-header-container .completedimg{
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+.endpage-header-container p {
+    font-family: 'Poppins', 'Calibri';
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+.endpage-header-container a {
+    font-family: 'Poppins', 'Calibri';
+    text-align: center;
+    color: #ffffff;
+    margin-left: 15%;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
 }

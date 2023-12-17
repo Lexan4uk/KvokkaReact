@@ -40,7 +40,7 @@
     transition: 0.5s;
 }
 .C-content-holder button.selected {
-    background-color: #c7c7c7; 
+    background-color: #e0e0e0; 
 }
 .C-content-holder button:hover {
     cursor: pointer;
@@ -90,3 +90,10 @@
     margin-bottom: 0px;
     margin-top: 0px;
 }
+.C-content-holder button.correct {
+    box-shadow: 0px 2px 13px 4px #00ff0040; /* Red shadow for correct answer */
+  }
+  
+  .C-content-holder button.incorrect {
+    box-shadow: 0px 2px 13px 4px #ff000040;; /* Green shadow for incorrect answer */
+  }
