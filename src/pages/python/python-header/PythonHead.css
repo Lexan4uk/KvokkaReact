@@ -1,0 +1,51 @@
+.python-header-container {
+    overflow: hidden;
+    background-color: #A76AE4;
+    height: 455px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    position: relative;
+}
+.python-header-container .img1 {
+    position: absolute;
+}
+.python-header-container .img2 {
+    position: absolute;
+    margin-left: 135px;
+    margin-top: 0px;
+}
+.python-header-container .img3 {
+    position: absolute;
+    margin-left: 246px;
+    margin-top: 64px;
+}
+.python-header-container .img4 {
+    position: absolute;
+    margin-left: 281px;
+    margin-top: 89px;
+}
+.python-header-container .info-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 262px;
+    height: 248px;
+    top: 17px;
+    left: -37px;
+}
+.python-header-container .img5 {
+    position: absolute;
+}
+.python-header-container .img6 {
+    position: absolute;
+
+}
+.python-header-container .img7 {
+    position: absolute;
+
+}
+.python-header-container .pythonimg {
+    position: absolute;
+
+}

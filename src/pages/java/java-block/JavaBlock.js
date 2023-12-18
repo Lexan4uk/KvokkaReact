@@ -1,16 +1,16 @@
-import './CBlock.css';
+import './JavaBlock.css';
 import React, { useState, useEffect } from 'react';
-import { cquestions } from '../../../things/content';
+import { jsquestions } from '../../../things/content';
 import EndPage from '../../end-page/EndPage';
-import CHead from '../c-header/CHead';
+import JavaHead from '../java-header/JavaHead';
 
-const CBlock = () => {
+const JavaBlock = () => {
   const [step, setStep] = useState(0);
   const [selectedVariants, setSelectedVariants] = useState([]);
   const [isAnswerButtonDisabled, setIsAnswerButtonDisabled] = useState(true);
   const [correct, setCorrect] = useState(0);
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
-  const question = cquestions[step];
+  const question = jsquestions[step];
 
   // Обработчик клика по варианту ответа
   const onClickVariant = (index) => {
@@ -68,16 +68,16 @@ const CBlock = () => {
   }, [step]);
 
   // Рендеринг компонента
-  if (step !== cquestions.length) {
+  if (step !== jsquestions.length) {
     return (
       <>
-        <CHead />
-        <div className='C-content-holder'>
-          <div className='C-question-holder'>
+        <JavaHead />
+        <div className='java-content-holder'>
+          <div className='java-question-holder'>
             <a>Вопрос</a>
             <p>{question.title}</p>
           </div>
-          <div className='C-button-holder'>
+          <div className='java-button-holder'>
             {question.answers.map((variant, index) => (
               <button
                 key={variant}
@@ -105,8 +105,8 @@ const CBlock = () => {
     );
   } else {
     // Показать страницу с результатами в конце викторины
-    return <EndPage correct={correct} length={cquestions.length} />;
+    return <EndPage correct={correct} length={jsquestions.length} />;
   }
 };
 
-export default CBlock;
+export default JavaBlock;
