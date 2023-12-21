@@ -1,0 +1,101 @@
+.C-content-holder {
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 12%;
+}
+.C-content-holder .C-question-holder {
+    width: 316px;
+    height: 138px;
+    border-radius: 14px;
+    background-color: #fff;
+    box-shadow: 0px 2px 13px 4px #9D57E340;
+    margin-bottom: 34px;
+    padding: 5px;
+    color: #5B1CAE;
+    text-align: center;
+}
+.C-question-holder a {
+    font-family: 'Poppins', 'Calibri';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+}
+.C-question-holder p {
+    font-family: 'Poppins', 'Calibri';
+    font-size: 20px;
+}
+.C-content-holder .button-holder {
+    position: relative;
+    
+}
+.C-content-holder button {
+    display: flex;
+    align-items: center;
+    width: 316px;
+    height: 55px;
+    border: 0px;
+    border-radius: 14px;
+    box-shadow: 0px 2px 13px 4px #9D57E340;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+.C-content-holder button.selected {
+    background-color: #e0e0e0; 
+}
+.C-content-holder button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.C-content-holder button.active {
+    box-shadow: 0px 2px 13px 4px #ff000040;
+}
+.C-content-holder button img {
+    margin-left: 48px;
+}
+.C-content-holder button p {
+    font-family: 'Poppins', 'Calibri';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    color: #5B1CAE;
+    width: 100%;
+}
+.C-content-holder .sumbit {
+    margin-top: 50px;
+    background-color: #bfbac5;
+    pointer-events: none;
+}
+.C-content-holder .sumbit:hover {
+    cursor: default;
+    transform: scale(1);
+}
+.C-content-holder .sumbit.active {
+    background-color: #7648b3;
+    cursor: pointer;
+    pointer-events: all;
+
+}
+.C-content-holder .sumbit.active:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.C-content-holder .sumbit p {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    line-height: 0.8;
+}
+.C-content-holder .sumbit.active.result {
+    position: absolute;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.C-content-holder button.correct {
+    box-shadow: 0px 2px 13px 4px #00ff0040; /* Red shadow for correct answer */
+  }
+  
+  .C-content-holder button.incorrect {
+    box-shadow: 0px 2px 13px 4px #ff000040;; /* Green shadow for incorrect answer */
+  }

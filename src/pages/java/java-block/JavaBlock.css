@@ -1,0 +1,100 @@
+.java-content-holder {
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 12%;
+}
+.java-content-holder .java-question-holder {
+    width: 316px;
+    height: 138px;
+    border-radius: 14px;
+    background-color: #fff;
+    box-shadow: 0px 2px 13px 4px #9D57E340;
+    margin-bottom: 34px;
+    padding: 5px;
+    color: #5B1CAE;
+    text-align: center;
+}
+.java-question-holder a {
+    font-family: 'Poppins', 'Calibri';
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0em;
+}
+.java-question-holder p {
+    font-family: 'Poppins', 'Calibri';
+    font-size: 20px;
+}
+.java-content-holder .button-holder {
+    position: relative;
+    
+}
+.java-content-holder button {
+    display: flex;
+    align-items: center;
+    width: 316px;
+    height: 55px;
+    border: 0px;
+    border-radius: 14px;
+    box-shadow: 0px 2px 13px 4px #9D57E340;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+.java-content-holder button.selected {
+    background-color: #e0e0e0; 
+}
+.java-content-holder button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.java-content-holder button.active {
+    box-shadow: 0px 2px 13px 4px #ff000040;
+}
+.java-content-holder button img {
+    margin-left: 48px;
+}
+.java-content-holder button p {
+    font-family: 'Poppins', 'Calibri';
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    color: #5B1CAE;
+    width: 100%;
+}
+.java-content-holder .sumbit {
+    margin-top: 50px;
+    background-color: #bfbac5;
+    pointer-events: none;
+}
+.java-content-holder .sumbit:hover {
+    cursor: default;
+    transform: scale(1);
+}
+.java-content-holder .sumbit.active {
+    background-color: #7648b3;
+    cursor: pointer;
+    pointer-events: all;
+}
+.java-content-holder .sumbit.active:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.java-content-holder .sumbit p {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    line-height: 0.8;
+}
+.java-content-holder .sumbit.active.result {
+    position: absolute;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.java-content-holder button.correct {
+    box-shadow: 0px 2px 13px 4px #00ff0040; /* Red shadow for correct answer */
+}
+  
+.java-content-holder button.incorrect {
+    box-shadow: 0px 2px 13px 4px #ff000040;; /* Green shadow for incorrect answer */
+}
